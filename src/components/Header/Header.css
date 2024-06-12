@@ -1,0 +1,22 @@
+/* src/components/Header/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .header__logo {
+    width: 80px;
+    object-fit: contain;
+  }
+  
+  .header__userIcon {
+    width: 30px;
+    object-fit: contain;
+  }
+  
